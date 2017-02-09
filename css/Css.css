@@ -1,0 +1,68 @@
+#tab th{
+
+color: #3716F5;
+
+}
+
+.container{
+	margin-left: 80px;
+}
+h1{
+	color: #3716F5;
+}
+
+#add {
+    padding: 5px 5px;
+    background: #0B4DDB;
+    width: 80px;
+    font-size: 20px;
+    color: #FFF;
+}
+body{
+	color: black;
+	background-color: #DFE6F7;
+	font-size: 160%;
+	font-family: cursive;
+	
+}
+
+@media (max-width: 360px) {
+	body{
+     font-size: 10px;
+     
+	}
+	.container{
+		margin-left: 20px;
+	}
+	
+}
+@media (max-width: 768px){
+body{
+     font-size: 25px;
+     
+	}
+	.container{
+		margin-left: 20px;
+	}
+  }
+@media (max-width: 1200px) {
+
+body{
+     font-size: 20px;
+     
+	}
+	.container{
+		margin-left: 20px;
+	}
+  }	
+@media screen and (max-width: 750px) 
+{
+  #display thead 
+    { 
+    	float: left; 
+    }
+    
+  #display td { 
+    	display: block 
+    }
+}
